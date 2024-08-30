@@ -11,5 +11,5 @@ function paperwork(n, m) {
   return n<0 || m<0 ? 0 : n*m;
 }
 console.log("Result 1:",paperwork(5, 5));
-console.log("Result 2:",paperwork(5, -5));
-console.log("Result 3:",paperwork(-5, 5));
+console.log("Result 2:",paperwork(-5, 5));
+console.log("Result 3:",paperwork(5, -5));
