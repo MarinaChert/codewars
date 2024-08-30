@@ -10,8 +10,10 @@
 
 // Solution
 function yearDays(year) {
-    return year % 4 === 0 ? year+" has 366 days" : year+" has 365 days";
+    return year % 100 !=0  && year % 4 === 0 || year % 400 === 0 ? year+" has 366 days" : year+" has 365 days";
   }
 
   console.log("Result1 :",yearDays(2000));
   console.log("Result2 :",yearDays(1857));
+  console.log("Result3 :",yearDays(300));
+
