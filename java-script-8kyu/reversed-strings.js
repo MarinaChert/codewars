@@ -9,3 +9,4 @@ function solution(str){
   }
   console.log("Result:",solution("world"));
   console.log("Result:",solution("word"));
+console.log("Result:",solution("drow"));
